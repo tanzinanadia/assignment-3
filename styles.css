@@ -1,0 +1,38 @@
+.image{
+    filter: brightness(50%);
+}
+.content{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.content h1{
+    font-weight: 700;
+    font-size: 45px;
+}
+.content p{
+    font-weight:400;
+    font-size: 18px;
+    line-height:28px;
+}
+
+.slider_inner{
+    height: 100vh;
+}
+.slider_image{
+    filter: brightness(50%);
+}
+
+
+
+/* card section start */
+
+.card_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+
+
+/* card section end */
