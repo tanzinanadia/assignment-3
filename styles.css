@@ -43,4 +43,29 @@
     grid-template-columns:1fr 1fr 1fr ;
 
 }
+.explore_body{
+    background-color: #f4fafd;
+    height: 500px;
+
+}
+.explore_area{
+    height: 500px;
+}
 /* explore section end */
+ /* ready section start  */
+ .ready{
+    background-color:rgb(0, 174, 255) ;
+    color:#ffffff;
+ }
+ /* ready section end */
+ /* students section start */
+ .pepole_box_title{
+    width: 40%;
+    padding: 10px 0;
+ }
+.pepole_container{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr ;
+    grid-gap: 15px;
+}
+ /* students section end */
