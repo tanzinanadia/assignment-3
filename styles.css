@@ -128,4 +128,22 @@
     margin-bottom: 100px;
  }
  /* questions section end */
+ /* companies section start */
+ .companies_info{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+ }
+ .companies_logo{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-gap: 50px;
+    padding-top:20px;
+ }
+ /* companies section end */
+ /* footer section start */
+ .social_footer_ul { display:table; margin:15px auto 0 auto; list-style-type:none;  }
+.social_footer_ul li { padding-left:10px; padding-top:10px; float:left; }
+.social_footer_ul li i {  width:30px; height:20px; text-align:center;}
+ /* footer section end */
  
