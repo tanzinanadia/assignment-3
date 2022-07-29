@@ -69,3 +69,56 @@
     grid-gap: 15px;
 }
  /* students section end */
+ /* feedback section start */
+ .feedback_box_title{
+    width: 40%;
+    padding: 20px 0;
+ }
+ 
+ .review_card_container{
+    display: grid;
+    grid-template-columns: 0.04fr 4fr 0.04fr;
+    /* grid-gap: 20px; */
+    align-items: center;
+    position: relative;
+
+ }
+ .review_card_box{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 20px;
+
+ }
+ .arrow{
+    background-color: #E5F6FF;
+    color: #289bde;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+ }
+ .arrow_right{
+    z-index: 1;
+    margin-left: -20px;
+ }
+ .arrow_left{
+    z-index: 1;
+    margin-right: -20px;
+ }
+ .review_star i{
+    color: orange;
+ }
+ .card_author{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    align-items: center;
+    /* grid-gap: 10px; */
+ }
+ .card_info{
+    padding: 0 10px;
+ }
+ /* feedback section end */
+ 
